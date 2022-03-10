@@ -27,6 +27,7 @@
     "@vitejs/plugin-react": "^1.0.7",
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.5.1",
     "eslint": "^8.10.0",
     "eslint-plugin-react": "^7.29.3",
     "lint-staged": "^12.3.5",
