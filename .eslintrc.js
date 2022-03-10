@@ -1,12 +1,14 @@
-module.exports = {
+module.exports =  {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "node": true
     },
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:react/jsx-runtime",
+        "plugin:@typescript-eslint/recommended",
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -20,6 +22,7 @@ module.exports = {
         "react",
         "@typescript-eslint"
     ],
-    "rules": {
+  "rules": {
+    "@typescript-eslint/no-unused-vars": 2
     }
 }

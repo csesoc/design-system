@@ -1,10 +1,9 @@
-import React from 'react';
-
-import { Button } from './Button';
 import './header.css';
 
+import { Button } from './Button';
+
 interface HeaderProps {
-  user?: {};
+  user?: unknown;
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;
